@@ -1377,6 +1377,11 @@ color: var(--color-light);
     padding-right: 4%;
   }
 
+  .recipe-section{
+    display: grid;
+    grid-template-columns: repeat(12, 1fr);
+  }
+
 }
 
 @media(width < 500px){
