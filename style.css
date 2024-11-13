@@ -1178,6 +1178,11 @@ color: var(--color-light);
     text-align: left;
     width: 90%;
     padding-left: 5%;
+    grid-column: span 12;
+  }
+
+  .right-content{
+    padding-top: 20px;
   }
 
   .left-content p , ul{
@@ -1235,6 +1240,11 @@ color: var(--color-light);
 
   .hero-text{
     margin-left: 10px;
+  }
+
+  .recipe-section{
+    display: grid;
+    grid-template-columns: repeat(12, 1fr);
   }
 }
 
