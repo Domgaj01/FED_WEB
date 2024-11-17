@@ -1125,6 +1125,7 @@ color: var(--color-light);
     width: 32px;
     height: 22px;
   }
+
   .todays_recipe{
     padding-bottom: 30px;
   }
@@ -1402,5 +1403,12 @@ color: var(--color-light);
   .todays_recipes_content {
     grid-template-columns: 1fr;
     width: 85%;
+  }
+}
+
+@media (min-width: 1024px) and (max-width: 1200px){
+
+  :root {
+    --width-12col:100%; 
   }
 }
