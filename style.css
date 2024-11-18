@@ -1226,6 +1226,10 @@ color: var(--color-light);
     height: 45px;
   }
 
+  .recipe_details{
+    padding-top: 30px;
+  }
+
   .recipe_details_left, .recipe_details_right{
     display: grid;
     grid-template-columns: 1fr;
